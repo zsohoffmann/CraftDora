@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Turn your photos into cross-stitch patterns – free, offline, on your Mac.</b><br>
-  Created by <a href="https://zsolthoffmann.com">Zsolt Hoffmann</a>
+  Created by <a href="https://zsolthoffmann.com">Zsolt Hoffmann</a> · <a href="https://www.instagram.com/zsolthoffmanncom">Instagram</a>
 </p>
 
 <p align="center">
@@ -81,7 +81,7 @@ We live in the age of AI, where images can be generated in seconds. CraftDora go
   <br><em>Thread list with DMC codes and stitch counts</em>
 </p>
 
-<p align="center"><sub>Sample photo (leopard) © Zsolt Hoffmann – see more of my photography at <a href="https://zsolthoffmann.com">zsolthoffmann.com</a></sub></p>
+<p align="center"><sub>Sample photo (leopard) © Zsolt Hoffmann – see more of my photography at <a href="https://zsolthoffmann.com">zsolthoffmann.com</a> and on Instagram <a href="https://www.instagram.com/zsolthoffmanncom">@zsolthoffmanncom</a></sub></p>
 
 ## Download & install
 
@@ -147,14 +147,14 @@ CraftDora is free, and it will stay free. I'm an independent photographer, not a
 - 🧵 **Share what you make!** If you post a pattern or a finished piece made with CraftDora, I'd be really grateful for a mention, for example:
   > Pattern made with **CraftDora** by Zsolt Hoffmann – zsolthoffmann.com
 
-  and use the hashtag **#CraftDora**, so I can find and admire your work.
+  On Instagram, tag **[@zsolthoffmanncom](https://www.instagram.com/zsolthoffmanncom)** and use the hashtag **#CraftDora**, so I can find and admire your work.
 - 💬 **Tell a friend** or share it in your favourite cross-stitch group.
 
 For someone working on their own, every mention means a lot. Thank you!
 
 ## About me – Zsolt Hoffmann, photographer
 
-When I'm not building tools like this, I'm behind the camera. If you enjoy images – the kind that might even become your next cross-stitch project – please visit my portfolio and follow my photography at **[zsolthoffmann.com](https://zsolthoffmann.com)**. I'd love to have you there.
+When I'm not building tools like this, I'm behind the camera. If you enjoy images – the kind that might even become your next cross-stitch project – please visit my portfolio at **[zsolthoffmann.com](https://zsolthoffmann.com)** and follow me on Instagram at **[@zsolthoffmanncom](https://www.instagram.com/zsolthoffmanncom)**. I'd love to have you there.
 
 ## Feedback & contributing
 
