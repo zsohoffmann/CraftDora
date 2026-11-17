@@ -5,7 +5,7 @@
 <h1 align="center">CraftDora</h1>
 
 <p align="center">
-  <b>Turn your photos into cross-stitch patterns – free, offline, on your Mac.</b><br>
+  <b>Turn your photos into cross-stitch patterns – free and offline, on your Mac or in any browser.</b><br>
   Created by <a href="https://zsolthoffmann.com">Zsolt Hoffmann</a> · <a href="https://www.instagram.com/zsolthoffmanncom">Instagram</a>
 </p>
 
@@ -14,6 +14,11 @@
   <img alt="Apple silicon" src="https://img.shields.io/badge/Apple%20silicon-M1%E2%80%93M4-lightgrey">
   <img alt="License: GPL-3.0" src="https://img.shields.io/badge/license-GPL--3.0-c2185b">
   <img alt="Languages: English, Hungarian" src="https://img.shields.io/badge/languages-English%20%7C%20Magyar-c2185b">
+</p>
+
+<p align="center">
+  <a href="https://zsohoffmann.github.io/CraftDora/"><b>▶ Try CraftDora in your browser</b></a> – works on Windows, Mac, Linux and iPad, nothing to install
+  &nbsp;·&nbsp; <a href="../../releases"><b>Download the Mac app</b></a>
 </p>
 
 ---
@@ -55,7 +60,8 @@ We live in the age of AI, where images can be generated in seconds. CraftDora go
 - Progress is saved automatically and restored when you reopen the same image with the same settings
 
 **Everything else**
-- English and Hungarian interface (follows your Mac's language; can be changed in the sidebar)
+- English and Hungarian interface (follows your system language; can be changed in the sidebar)
+- Native Mac app **and** a web version that runs in any modern browser
 - 100% offline – no account, no tracking, no network access
 
 ## Screenshots
@@ -104,9 +110,19 @@ We live in the age of AI, where images can be generated in seconds. CraftDora go
 
 <p align="center"><sub>Sample photos © Zsolt Hoffmann – see more of my photography at <a href="https://zsolthoffmann.com">zsolthoffmann.com</a> and on Instagram <a href="https://www.instagram.com/zsolthoffmanncom">@zsolthoffmanncom</a></sub></p>
 
-## Download & install
+## Use it in your browser (Windows, Mac, Linux, iPad)
 
-**Requirements:** a Mac with **Apple silicon** (M1, M2, M3, M4 …) and **macOS 12 Monterey or later**. Intel Macs are not supported yet.
+Open **[zsohoffmann.github.io/CraftDora](https://zsohoffmann.github.io/CraftDora/)** – that's it. The web version has the same features as the Mac app: shapes and crop, image adjustments, DMC thread matching, the stitched preview and progress tracking.
+
+- **Your photos never leave your device.** Everything is processed inside your browser; nothing is uploaded.
+- **Works offline.** Once the page has loaded, you don't need an internet connection. You can also save the page (*File → Save Page As…*, or download [`docs/index.html`](docs/index.html)) and open the file from your computer any time.
+- **Export** a PNG, or use **Print / PDF** and choose *Save as PDF* in your browser's print dialog.
+- Your progress is saved in the browser you use. Clearing your browser data also clears the saved progress.
+- Works best in an up-to-date Chrome, Edge, Firefox or Safari. HEIC photos open in Safari; in other browsers, use JPEG or PNG.
+
+## Download & install the Mac app
+
+**Requirements:** a Mac with **Apple silicon** (M1, M2, M3, M4 …) and **macOS 12 Monterey or later**. Intel Macs are not supported – please use the [web version](https://zsohoffmann.github.io/CraftDora/) instead.
 
 1. Download **`CraftDora.dmg`** from the [**Releases**](../../releases) page.
 2. Open the DMG and drag **CraftDora** into your **Applications** folder.
@@ -152,7 +168,7 @@ Apps you build yourself don't trigger the Gatekeeper warning on your own Mac.
 
 ## Privacy
 
-CraftDora never connects to the internet. Your images are processed only on your Mac and are never uploaded anywhere. The only data it stores is your stitching progress, in `~/Library/Application Support/CraftDora/Progress`, plus a few preferences (language, view options).
+CraftDora never sends anything over the internet. Your images are processed only on your own device – in the Mac app or inside your browser – and are never uploaded anywhere. The only data it stores is your stitching progress and a few preferences: the Mac app keeps them in `~/Library/Application Support/CraftDora/Progress`, the web version in your browser's local storage.
 
 ## How CraftDora was made
 
