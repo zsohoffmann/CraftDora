@@ -137,7 +137,7 @@ CraftDora never connects to the internet. Your images are processed only on your
 
 CraftDora is my idea and my project – the concept, the features, the look and every design decision come from me, a photographer with a clear picture of what the cross-stitch community could use.
 
-I built it together with **Claude**, Anthropic's AI assistant, which wrote the Swift code based on my direction. Step by step I described what I wanted – the shapes and crop, the image adjustments, the DMC thread matching, the stitched preview, the way finished stitches should disappear in the progress view, the pink tulip icon – tested the ideas, and asked for changes until it worked the way I imagined. It's a good example of how AI can serve human creativity instead of replacing it: the tool is digital, but what it's for is handmade.
+I also used Claude, Anthropic's AI assistant, while building it.
 
 ## Please credit & share ❤️
 
