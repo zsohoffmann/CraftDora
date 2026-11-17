@@ -81,8 +81,6 @@ We live in the age of AI, where images can be generated in seconds. CraftDora go
   <br><em>Thread list with DMC codes and stitch counts</em>
 </p>
 
-<p align="center"><sub>Sample photo (leopard) © Zsolt Hoffmann – see more of my photography at <a href="https://zsolthoffmann.com">zsolthoffmann.com</a> and on Instagram <a href="https://www.instagram.com/zsolthoffmanncom">@zsolthoffmanncom</a></sub></p>
-
 ## Examples
 
 **How much detail? It's up to you.** The same photo at two widths – fewer stitches make a quicker, bolder project; more stitches capture fine detail:
@@ -103,6 +101,8 @@ We live in the age of AI, where images can be generated in seconds. CraftDora go
 <p align="center">
   <img src="docs/example-28-colours.png" alt="Full 80 × 80 chart with 28 DMC thread colours, each with a distinct symbol, and the key with stitch counts">
 </p>
+
+<p align="center"><sub>Sample photos © Zsolt Hoffmann – see more of my photography at <a href="https://zsolthoffmann.com">zsolthoffmann.com</a> and on Instagram <a href="https://www.instagram.com/zsolthoffmanncom">@zsolthoffmanncom</a></sub></p>
 
 ## Download & install
 
