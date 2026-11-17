@@ -81,6 +81,8 @@ We live in the age of AI, where images can be generated in seconds. CraftDora go
   <br><em>Thread list with DMC codes and stitch counts</em>
 </p>
 
+<p align="center"><sub>Sample photo (leopard) © Zsolt Hoffmann – see more of my photography at <a href="https://zsolthoffmann.com">zsolthoffmann.com</a></sub></p>
+
 ## Download & install
 
 **Requirements:** a Mac with **Apple silicon** (M1, M2, M3, M4 …) and **macOS 12 Monterey or later**. Intel Macs are not supported yet.
