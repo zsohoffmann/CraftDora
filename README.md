@@ -58,12 +58,28 @@ We live in the age of AI, where images can be generated in seconds. CraftDora go
 - English and Hungarian interface (follows your Mac's language; can be changed in the sidebar)
 - 100% offline – no account, no tracking, no network access
 
-<!--
-Screenshots: add images to docs/ and reference them here, e.g.
-![Pattern view](docs/screenshot-pattern.png)
-![Stitched preview](docs/screenshot-preview.png)
-![Progress view](docs/screenshot-progress.png)
--->
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshot-pattern.png" alt="CraftDora main window: settings in the sidebar and the generated cross-stitch chart with symbols, grid numbers and the DMC thread key">
+  <br><em>Pattern view – settings on the left, the chart with symbols and the DMC key on the right</em>
+</p>
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshot-preview.jpg" alt="Stitched preview: shaded cross stitches on Aida fabric"></td>
+    <td width="50%"><img src="docs/screenshot-progress.png" alt="Progress view: finished colour areas have faded away, only the remaining stitches are visible"></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Preview – roughly how it will look stitched</em></td>
+    <td align="center"><em>Progress – finished areas fade away</em></td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="docs/screenshot-threads.png" width="320" alt="Thread list with DMC codes, names and stitch counts">
+  <br><em>Thread list with DMC codes and stitch counts</em>
+</p>
 
 ## Download & install
 

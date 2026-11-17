@@ -947,6 +947,12 @@ struct ContentView: View {
         }
     }
 
+    /// Rounds slider values to `step` without the dense tick marks a stepped Slider draws on macOS.
+    private func snapped(_ value: Binding<Double>, _ step: Double) -> Binding<Double> {
+        Binding(get: { value.wrappedValue },
+                set: { value.wrappedValue = ($0 / step).rounded() * step })
+    }
+
     /// -100%…+100% slider, 0 is the default.
     private func adjustRow(_ title: String, _ value: Binding<Double>) -> some View {
         let pct = Int((value.wrappedValue * 100).rounded())
@@ -959,7 +965,7 @@ struct ContentView: View {
                     .controlSize(.small)
                     .disabled(abs(value.wrappedValue) < 0.01)
             }
-            Slider(value: value, in: -1...1, step: 0.05)
+            Slider(value: snapped(value, 0.05), in: -1...1)
         }
     }
 
@@ -972,7 +978,7 @@ struct ContentView: View {
                 Text("\(Int(value.wrappedValue)) \(unit)").monospacedDigit().foregroundColor(.secondary)
                 Stepper("", value: value, in: range, step: 1).labelsHidden()
             }
-            Slider(value: value, in: range, step: 1)
+            Slider(value: snapped(value, 1), in: range)
         }
     }
 
@@ -1054,7 +1060,7 @@ struct ContentView: View {
         VStack(alignment: .leading, spacing: 16) {
             Divider()
             Text(L("Minta", "Pattern")).font(.headline)
-            Picker("Forma", selection: $model.shape) {
+            Picker(L("Forma", "Shape"), selection: $model.shape) {
                 Text(L("Eredeti", "Original")).tag(PatternShape.original)
                 Text(L("Négyzet", "Square")).tag(PatternShape.square)
                 Text(L("Kör", "Circle")).tag(PatternShape.circle)
@@ -1094,7 +1100,7 @@ struct ContentView: View {
                         .controlSize(.small)
                         .disabled(abs(model.vivid - 1.25) < 0.01)
                 }
-                Slider(value: $model.vivid, in: 0.8...2.0, step: 0.05)
+                Slider(value: snapped($model.vivid, 0.05), in: 0.8...2.0)
                 Text(L("A kicsinyítés és a színcsökkentés átlagol, ami tompítja a színeket – ez ellensúlyozza.", "Downscaling and colour reduction average colours, which dulls them – this compensates."))
                     .font(.caption).foregroundColor(.secondary).fixedSize(horizontal: false, vertical: true)
             }
@@ -1109,7 +1115,7 @@ struct ContentView: View {
                         .controlSize(.small)
                         .disabled(abs(model.contrast - 1.0) < 0.01)
                 }
-                Slider(value: $model.contrast, in: 0.6...1.6, step: 0.05)
+                Slider(value: snapped($model.contrast, 0.05), in: 0.6...1.6)
             }
             adjustRow(L("Csúcsfények", "Highlights"), $model.highlights)
                 .help(L("Jobbra: világosabb világos részek. Balra: a kiégett, túl világos részek visszahozása.", "Right: brighter highlights. Left: recover blown-out, overly bright areas."))
