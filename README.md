@@ -83,6 +83,27 @@ We live in the age of AI, where images can be generated in seconds. CraftDora go
 
 <p align="center"><sub>Sample photo (leopard) © Zsolt Hoffmann – see more of my photography at <a href="https://zsolthoffmann.com">zsolthoffmann.com</a> and on Instagram <a href="https://www.instagram.com/zsolthoffmanncom">@zsolthoffmanncom</a></sub></p>
 
+## Examples
+
+**How much detail? It's up to you.** The same photo at two widths – fewer stitches make a quicker, bolder project; more stitches capture fine detail:
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/example-80-stitches.jpg" alt="Stitched preview of a car photo at 80 stitches wide – bold, simplified shapes"></td>
+    <td width="50%"><img src="docs/example-300-stitches.jpg" alt="Stitched preview of the same car photo at 300 stitches wide – fine detail"></td>
+  </tr>
+  <tr>
+    <td align="center"><em>80 × 80 stitches (≈ 14.5 cm on 14-count Aida)</em></td>
+    <td align="center"><em>300 × 300 stitches (≈ 54 cm on 14-count Aida)</em></td>
+  </tr>
+</table>
+
+**Subtle shades, clearly separated.** Even with 28 DMC colours of similar browns and greys, every thread has its own symbol, so the chart stays easy to follow:
+
+<p align="center">
+  <img src="docs/example-28-colours.png" alt="Full 80 × 80 chart with 28 DMC thread colours, each with a distinct symbol, and the key with stitch counts">
+</p>
+
 ## Download & install
 
 **Requirements:** a Mac with **Apple silicon** (M1, M2, M3, M4 …) and **macOS 12 Monterey or later**. Intel Macs are not supported yet.
